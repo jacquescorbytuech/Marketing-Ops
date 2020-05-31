@@ -17,5 +17,8 @@ exclude:
 tag_page_layout: tag_page
 tag_page_dir: tag
 
+url: "https://marketingops.cc"
+
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
