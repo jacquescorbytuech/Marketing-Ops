@@ -1,0 +1,18 @@
+---
+layout: post
+---
+
+{% include header.html %}
+<main class="flex flex-1 flex-col text-gray-900 px-8" >
+    <article class="lg:p-4 flex flex-col">
+        <div class="flex items-center"><span class="bg-gray-200 flex items-center p-2 min-w rounded"><a href="{{ page.link }}"><img src="https://icons.duckduckgo.com/ip3/{{ page.domain }}.ico" class="h-6" /></a><a href="{{ page.link }}" class="ml-3 font-semibold">{{ page.domain }}</a></span></div>
+        <a href="{{ page.link }}" class="text-3xl hover:text-blue-600">{{ page.title }}</a>
+        <div class="mt-1 flex flex-wrap">
+        {% for tag in page.tags %}
+        <a class="tag" href="/tag/{{tag | replace: ' ', '-' }}">#{{tag}}</a> 
+        {% endfor %}
+        </div>
+    </article>
+</main>
+  {% include sidebar.html %}
+  {% include footer.html %}

@@ -2,11 +2,8 @@
 ---
 
 {% include header.html %}
-
-<main
-  class="bg-teal-500 flex h-screen items-center justify-center w-full"
->
-  {{ content }}
-</main>
-
+  <main class="flex flex-1 flex-col text-gray-900 px-8" >
+    {{ content }}    
+  </main>
+  {% include sidebar.html %}
 {% include footer.html %}

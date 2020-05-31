@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-starter-tailwind",
+  "name": "marketing ops",
   "version": "6.0.0",
-  "description": "A starter kit for using Tailwind with Jekyll",
+  "description": "Marketing Ops",
   "main": "gulpfile.babel.js",
   "devDependencies": {
     "autoprefixer": "9.8.0",
@@ -25,12 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taylorbryant/jekyll-starter-tailwind.git"
-  },
-  "author": "Taylor Bryant",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/taylorbryant/jekyll-starter-tailwind/issues"
+    "url": ""
   },
   "publishConfig": {
     "access": "public"

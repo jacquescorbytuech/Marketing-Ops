@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
+<h2 class="text-4xl mb-12">All posts tagged <i>{{ page.tag }}</i></h2>
 
-{% for post in site.posts %}
-  <article class="lg:p-4 flex flex-col mb-12">
+{% for post in page.posts %}
+ 
+<article class="lg:p-4 flex flex-col mb-12">
     <div class="flex items-center"><span class="bg-gray-200 flex items-center p-2 min-w rounded"><a href="{{ post.link }}"><img src="https://icons.duckduckgo.com/ip3/{{ post.domain }}.ico" class="h-6" /></a><a href="{{ post.link }}" class="ml-3 font-semibold">{{ post.domain }}</a></span></div>
     <a href="{{ post.link }}" class="text-3xl hover:text-blue-600 transition ease-in-out duration-700">{{ post.title }}</a>
     <span class="block mt-6 underline italic self-end text-lg"><a href="{{ post.url }}">permalink</a></span>
@@ -13,4 +15,6 @@ layout: default
       {% endfor %}
     </div>
   </article>
+
 {% endfor %}
+

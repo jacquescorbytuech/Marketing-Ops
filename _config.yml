@@ -13,3 +13,9 @@ exclude:
   - src
   - tailwind.config.js
   - netlify.toml
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+plugins:
+  - jekyll-feed
