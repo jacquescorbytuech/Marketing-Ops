@@ -1,5 +1,5 @@
 {
-  "name": "marketing ops",
+  "name": "marketing-ops",
   "version": "6.0.0",
   "description": "Marketing Ops",
   "main": "gulpfile.babel.js",
