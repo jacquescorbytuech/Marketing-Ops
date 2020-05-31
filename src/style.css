@@ -6,9 +6,9 @@
 
 
 .tag {
-    @apply bg-green-400 p-1 mx-2 my-1 text-gray-800 rounded text-sm font-extrabold transition ease-in-out duration-700
+    @apply bg-green-400 p-1 mx-2 my-1 text-gray-800 rounded text-sm font-extrabold 
 }
 
 .tag:hover {
-    @apply bg-yellow-400
+    @apply bg-yellow-400 transition ease-in-out duration-700
 }
